@@ -219,6 +219,47 @@ Promise.all([
     item.append("div").attr("class", "legend-color").style("background-color", industryColorMap[industry]);
     item.append("div").text(industry);
   });
+
+  const clusterLines = zoomGroup.append("g")
+  .attr("class", "clusters")
+  .selectAll("circle")
+  .data(industries)
+  .join("circle")
+  .attr("r", 80)
+  .attr("fill", d => industryColorMap[d])
+  .attr("opacity", 0.05)
+  .attr("stroke", d => industryColorMap[d])
+  .attr("stroke-width", 1.5);
+
+// Update clustering line positions
+simulation.on("tick", () => {
+  link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  node.attr("cx", d => d.x).attr("cy", d => d.y);
+  label.attr("x", d => d.x).attr("y", d => d.y);
+
+  clusterLines
+    .attr("cx", d => {
+      const clusterNodes = nodes.filter(n => n.type === 'company' && n.industry === d);
+      return d3.mean(clusterNodes, n => n.x);
+    })
+    .attr("cy", d => {
+      const clusterNodes = nodes.filter(n => n.type === 'company' && n.industry === d);
+      return d3.mean(clusterNodes, n => n.y);
+    });
+});
+
+// Group highlighting: fade unrelated nodes on hover over a legend item
+legendContainer.selectAll(".legend-item")
+  .on("mouseover", (event, d) => {
+    node.attr("opacity", n => (n.industry === d || n.id === d) ? 1 : 0.1);
+    label.attr("opacity", n => (n.industry === d || n.id === d) ? 1 : 0.1);
+    link.attr("opacity", l => (l.source.industry === d || l.target.industry === d) ? 1 : 0.1);
+  })
+  .on("mouseout", () => {
+    node.attr("opacity", 1);
+    label.attr("opacity", 1);
+    link.attr("opacity", 0.6);
+  });
 });
 </script>
 
