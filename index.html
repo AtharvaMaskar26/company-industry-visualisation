@@ -106,6 +106,7 @@ Promise.all([
   const simulation = d3.forceSimulation(nodes)
     .force("link", d3.forceLink(links).id(d => d.id).distance(70))
     .force("charge", d3.forceManyBody().strength(-200))
+    .force("collide", d3.forceCollide(30))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("similarity", cosineSimilarityAttraction(similarityData));
 
@@ -150,6 +151,25 @@ Promise.all([
     label.attr("x", d => d.x).attr("y", d => d.y);
   });
 
+  simulation.on("end", () => {
+    const xExtent = d3.extent(nodes, d => d.x);
+    const yExtent = d3.extent(nodes, d => d.y);
+    const dx = xExtent[1] - xExtent[0];
+    const dy = yExtent[1] - yExtent[0];
+    const padding = 40;
+    const scale = 0.9 / Math.max(dx / width, dy / height);
+    const translate = [
+      (width - scale * (xExtent[0] + xExtent[1])) / 2,
+      (height - scale * (yExtent[0] + yExtent[1])) / 2
+    ];
+    svg.transition()
+      .duration(750)
+      .call(
+        d3.zoom().transform,
+        d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+      );
+  });
+
   function drag(sim) {
     return d3.drag()
       .on("start", (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
@@ -180,12 +200,10 @@ Promise.all([
     }
   }
 
-  // Zoom
   svg.call(d3.zoom()
     .scaleExtent([0.5, 5])
     .on("zoom", event => zoomGroup.attr("transform", event.transform)));
 
-  // Legend toggle
   const toggleBtn = document.getElementById("legend-toggle");
   const legendBox = document.getElementById("legend");
   let isOpen = false;
