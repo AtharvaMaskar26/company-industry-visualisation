@@ -210,7 +210,7 @@ Promise.all([
   toggleBtn.addEventListener("click", () => {
     isOpen = !isOpen;
     legendBox.style.display = isOpen ? "block" : "none";
-    toggleBtn.textContent = isOpen ? "📁 Hide Legend" : "📂 Show Legend";
+    toggleBtn.textContent = isOpen ? "Hide Legend" : "Show Legend";
   });
 
   const legendContainer = d3.select("#legend");
