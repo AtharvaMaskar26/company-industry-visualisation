@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company-Industry Knowledge Graph (Cosine Layout)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    svg {
+      width: 100vw;
+      height: 100vh;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      pointer-events: none;
+      font-size: 14px;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+      max-width: 250px;
+    }
+    #legend-wrapper {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      max-height: 70vh;
+      max-width: 260px;
+      overflow: hidden;
+      z-index: 10;
+    }
+    #legend-toggle {
+      background: #222;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-bottom: 6px;
+      width: 100%;
+      text-align: left;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    #legend {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: white;
+      font-size: 14px;
+      overflow-y: auto;
+      max-height: 50vh;
+      display: none;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      margin-right: 10px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+<svg></svg>
+<div class="tooltip" style="opacity: 0;"></div>
+<div id="legend-wrapper">
+  <button id="legend-toggle">📂 Show Legend</button>
+  <div id="legend"></div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const tooltip = d3.select(".tooltip");
+const svg = d3.select("svg");
+const width = window.innerWidth;
+const height = window.innerHeight;
+const zoomGroup = svg.append("g");
+
+Promise.all([
+  d3.json("./data/industry_scrip_graph.json"),
+  d3.json("./data/industry_similarity.json")
+]).then(([graph, similarityData]) => {
+  const nodes = graph.nodes;
+  const links = graph.links;
+
+  const industries = [...new Set(nodes.filter(n => n.type === 'industry').map(n => n.id))];
+  const colorScale = d3.scaleOrdinal()
+    .domain(industries)
+    .range(d3.schemeTableau10.concat(d3.schemeSet3));
+  const industryColorMap = {};
+  industries.forEach(ind => industryColorMap[ind] = colorScale(ind));
+
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(70))
+    .force("charge", d3.forceManyBody().strength(-200))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force("similarity", cosineSimilarityAttraction(similarityData));
+
+  const link = zoomGroup.append("g")
+    .attr("stroke", "#888")
+    .attr("stroke-opacity", 0.6)
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("stroke-width", 1.5);
+
+  const node = zoomGroup.append("g")
+    .selectAll("circle")
+    .data(nodes)
+    .join("circle")
+    .attr("r", 10)
+    .attr("fill", d => d.type === "industry" ? industryColorMap[d.id] : industryColorMap[d.industry])
+    .on("mouseover", (event, d) => {
+      tooltip.style("opacity", 1).html(`<strong>${d.name}</strong><br>${d.type === 'company' ? `Industry: ${d.industry}` : 'Industry Hub'}`);
+    })
+    .on("mousemove", event => {
+      tooltip.style("left", (event.pageX + 15) + "px").style("top", (event.pageY - 28) + "px");
+    })
+    .on("mouseout", () => tooltip.style("opacity", 0))
+    .on("click", (event, d) => {
+      if (d.type === 'company' && d.url) window.open(d.url, "_blank");
+    })
+    .call(drag(simulation));
+
+  const label = zoomGroup.append("g")
+    .selectAll("text")
+    .data(nodes)
+    .join("text")
+    .text(d => d.name)
+    .attr("fill", "#fff")
+    .attr("font-size", "10px")
+    .attr("dy", -12);
+
+  simulation.on("tick", () => {
+    link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    node.attr("cx", d => d.x).attr("cy", d => d.y);
+    label.attr("x", d => d.x).attr("y", d => d.y);
+  });
+
+  function drag(sim) {
+    return d3.drag()
+      .on("start", (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on("drag", (event, d) => { d.fx = event.x; d.fy = event.y; })
+      .on("end", (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; });
+  }
+
+  function cosineSimilarityAttraction(similarityMap) {
+    return function(alpha) {
+      nodes.forEach(a => {
+        if (a.type !== 'industry') return;
+        const sims = similarityMap[a.id] || {};
+        nodes.forEach(b => {
+          if (b.type !== 'industry' || a.id === b.id) return;
+          const sim = sims[b.id] || 0;
+          if (sim > 0.5) {
+            const dx = b.x - a.x;
+            const dy = b.y - a.y;
+            const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+            const force = alpha * sim * 10;
+            a.vx += (dx / dist) * force;
+            a.vy += (dy / dist) * force;
+            b.vx -= (dx / dist) * force;
+            b.vy -= (dy / dist) * force;
+          }
+        });
+      });
+    }
+  }
+
+  // Zoom
+  svg.call(d3.zoom()
+    .scaleExtent([0.5, 5])
+    .on("zoom", event => zoomGroup.attr("transform", event.transform)));
+
+  // Legend toggle
+  const toggleBtn = document.getElementById("legend-toggle");
+  const legendBox = document.getElementById("legend");
+  let isOpen = false;
+  toggleBtn.addEventListener("click", () => {
+    isOpen = !isOpen;
+    legendBox.style.display = isOpen ? "block" : "none";
+    toggleBtn.textContent = isOpen ? "📁 Hide Legend" : "📂 Show Legend";
+  });
+
+  const legendContainer = d3.select("#legend");
+  industries.forEach(industry => {
+    const item = legendContainer.append("div").attr("class", "legend-item");
+    item.append("div").attr("class", "legend-color").style("background-color", industryColorMap[industry]);
+    item.append("div").text(industry);
+  });
+});
+</script>
+
+</body>
+</html>

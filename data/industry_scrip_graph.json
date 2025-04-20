@@ -1,0 +1,1251 @@
+{
+  "nodes": [
+    {
+      "id": "Refineries",
+      "name": "Refineries",
+      "type": "industry"
+    },
+    {
+      "id": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "type": "company",
+      "industry": "Refineries",
+      "url": "https://www.screener.in/company/RELIANCE/consolidated/"
+    },
+    {
+      "id": "Banks - Private Sector",
+      "name": "Banks - Private Sector",
+      "type": "industry"
+    },
+    {
+      "id": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "type": "company",
+      "industry": "Banks - Private Sector",
+      "url": "https://www.screener.in/company/HDFCBANK/consolidated/"
+    },
+    {
+      "id": "Computers - Software - Large",
+      "name": "Computers - Software - Large",
+      "type": "industry"
+    },
+    {
+      "id": "TCS",
+      "name": "Tata Consultancy Services Ltd",
+      "type": "company",
+      "industry": "Computers - Software - Large",
+      "url": "https://www.screener.in/company/TCS/consolidated/"
+    },
+    {
+      "id": "Telecommunications - Service Provider",
+      "name": "Telecommunications - Service Provider",
+      "type": "industry"
+    },
+    {
+      "id": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd",
+      "type": "company",
+      "industry": "Telecommunications - Service Provider",
+      "url": "https://www.screener.in/company/BHARTIARTL/consolidated/"
+    },
+    {
+      "id": "ICICIBANK",
+      "name": "ICICI Bank Ltd",
+      "type": "company",
+      "industry": "Banks - Private Sector",
+      "url": "https://www.screener.in/company/ICICIBANK/consolidated/"
+    },
+    {
+      "id": "Banks - Public Sector",
+      "name": "Banks - Public Sector",
+      "type": "industry"
+    },
+    {
+      "id": "SBIN",
+      "name": "State Bank of India",
+      "type": "company",
+      "industry": "Banks - Public Sector",
+      "url": "https://www.screener.in/company/SBIN/consolidated/"
+    },
+    {
+      "id": "INFY",
+      "name": "Infosys Ltd",
+      "type": "company",
+      "industry": "Computers - Software - Large",
+      "url": "https://www.screener.in/company/INFY/consolidated/"
+    },
+    {
+      "id": "Finance & Investments",
+      "name": "Finance & Investments",
+      "type": "industry"
+    },
+    {
+      "id": "BAJFINANCE",
+      "name": "Bajaj Finance Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/BAJFINANCE/consolidated/"
+    },
+    {
+      "id": "Personal Care - Multinational",
+      "name": "Personal Care - Multinational",
+      "type": "industry"
+    },
+    {
+      "id": "HINDUNILVR",
+      "name": "Hindustan Unilever Ltd",
+      "type": "company",
+      "industry": "Personal Care - Multinational",
+      "url": "https://www.screener.in/company/HINDUNILVR/consolidated/"
+    },
+    {
+      "id": "Cigarettes",
+      "name": "Cigarettes",
+      "type": "industry"
+    },
+    {
+      "id": "ITC",
+      "name": "ITC Ltd",
+      "type": "company",
+      "industry": "Cigarettes",
+      "url": "https://www.screener.in/company/ITC/consolidated/"
+    },
+    {
+      "id": "LICI",
+      "name": "Life Insurance Corporation of India",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/LICI/consolidated/"
+    },
+    {
+      "id": "Engineering - Turnkey Services",
+      "name": "Engineering - Turnkey Services",
+      "type": "industry"
+    },
+    {
+      "id": "LT",
+      "name": "Larsen & Toubro Ltd",
+      "type": "company",
+      "industry": "Engineering - Turnkey Services",
+      "url": "https://www.screener.in/company/LT/consolidated/"
+    },
+    {
+      "id": "KOTAKBANK",
+      "name": "Kotak Mahindra Bank Ltd",
+      "type": "company",
+      "industry": "Banks - Private Sector",
+      "url": "https://www.screener.in/company/KOTAKBANK/consolidated/"
+    },
+    {
+      "id": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+      "name": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+      "type": "industry"
+    },
+    {
+      "id": "SUNPHARMA",
+      "name": "Sun Pharmaceutical Industries Ltd",
+      "type": "company",
+      "industry": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+      "url": "https://www.screener.in/company/SUNPHARMA/consolidated/"
+    },
+    {
+      "id": "HCLTECH",
+      "name": "HCL Technologies Ltd",
+      "type": "company",
+      "industry": "Computers - Software - Large",
+      "url": "https://www.screener.in/company/HCLTECH/consolidated/"
+    },
+    {
+      "id": "AXISBANK",
+      "name": "Axis Bank Ltd",
+      "type": "company",
+      "industry": "Banks - Private Sector",
+      "url": "https://www.screener.in/company/AXISBANK/consolidated/"
+    },
+    {
+      "id": "Automobiles - Passenger Cars",
+      "name": "Automobiles - Passenger Cars",
+      "type": "industry"
+    },
+    {
+      "id": "MARUTI",
+      "name": "Maruti Suzuki India Ltd",
+      "type": "company",
+      "industry": "Automobiles - Passenger Cars",
+      "url": "https://www.screener.in/company/MARUTI/consolidated/"
+    },
+    {
+      "id": "Power Generation And Supply",
+      "name": "Power Generation And Supply",
+      "type": "industry"
+    },
+    {
+      "id": "NTPC",
+      "name": "NTPC Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/NTPC/consolidated/"
+    },
+    {
+      "id": "Cement - North India",
+      "name": "Cement - North India",
+      "type": "industry"
+    },
+    {
+      "id": "ULTRACEMCO",
+      "name": "UltraTech Cement Ltd",
+      "type": "company",
+      "industry": "Cement - North India",
+      "url": "https://www.screener.in/company/ULTRACEMCO/consolidated/"
+    },
+    {
+      "id": "M&M",
+      "name": "Mahindra & Mahindra Ltd",
+      "type": "company",
+      "industry": "Automobiles - Passenger Cars",
+      "url": "https://www.screener.in/company/M&M/consolidated/"
+    },
+    {
+      "id": "BAJAJFINSV",
+      "name": "Bajaj Finserv Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/BAJAJFINSV/consolidated/"
+    },
+    {
+      "id": "Oil Drilling / Allied Services",
+      "name": "Oil Drilling / Allied Services",
+      "type": "industry"
+    },
+    {
+      "id": "ONGC",
+      "name": "Oil & Natural Gas Corpn Ltd",
+      "type": "company",
+      "industry": "Oil Drilling / Allied Services",
+      "url": "https://www.screener.in/company/ONGC/consolidated/"
+    },
+    {
+      "id": "Diamond Cutting / Jewellery",
+      "name": "Diamond Cutting / Jewellery",
+      "type": "industry"
+    },
+    {
+      "id": "TITAN",
+      "name": "Titan Company Ltd",
+      "type": "company",
+      "industry": "Diamond Cutting / Jewellery",
+      "url": "https://www.screener.in/company/TITAN/consolidated/"
+    },
+    {
+      "id": "POWERGRID",
+      "name": "Power Grid Corporation of India Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/POWERGRID/consolidated/"
+    },
+    {
+      "id": "Trading",
+      "name": "Trading",
+      "type": "industry"
+    },
+    {
+      "id": "DMART",
+      "name": "Avenue Supermarts Ltd",
+      "type": "company",
+      "industry": "Trading",
+      "url": "https://www.screener.in/company/DMART/consolidated/"
+    },
+    {
+      "id": "Engineering",
+      "name": "Engineering",
+      "type": "industry"
+    },
+    {
+      "id": "company",
+      "name": "Hindustan Aeronautics Ltd",
+      "type": "company",
+      "industry": "Engineering",
+      "url": "https://www.screener.in/company/HAL/"
+    },
+    {
+      "id": "ADANIENT",
+      "name": "Adani Enterprises Ltd",
+      "type": "company",
+      "industry": "Trading",
+      "url": "https://www.screener.in/company/ADANIENT/consolidated/"
+    },
+    {
+      "id": "Miscellaneous",
+      "name": "Miscellaneous",
+      "type": "industry"
+    },
+    {
+      "id": "ADANIPORTS",
+      "name": "Adani Ports & Special Economic Zone Ltd",
+      "type": "company",
+      "industry": "Miscellaneous",
+      "url": "https://www.screener.in/company/ADANIPORTS/consolidated/"
+    },
+    {
+      "id": "WIPRO",
+      "name": "Wipro Ltd",
+      "type": "company",
+      "industry": "Computers - Software - Large",
+      "url": "https://www.screener.in/company/WIPRO/consolidated/"
+    },
+    {
+      "id": "Steel - Large",
+      "name": "Steel - Large",
+      "type": "industry"
+    },
+    {
+      "id": "JSWSTEEL",
+      "name": "JSW Steel Ltd",
+      "type": "company",
+      "industry": "Steel - Large",
+      "url": "https://www.screener.in/company/JSWSTEEL/consolidated/"
+    },
+    {
+      "id": "Mining / Minerals / Metals",
+      "name": "Mining / Minerals / Metals",
+      "type": "industry"
+    },
+    {
+      "id": "COALINDIA",
+      "name": "Coal India Ltd",
+      "type": "company",
+      "industry": "Mining / Minerals / Metals",
+      "url": "https://www.screener.in/company/COALINDIA/consolidated/"
+    },
+    {
+      "id": "Paints / Varnishes",
+      "name": "Paints / Varnishes",
+      "type": "industry"
+    },
+    {
+      "id": "ASIANPAINT",
+      "name": "Asian Paints Ltd",
+      "type": "company",
+      "industry": "Paints / Varnishes",
+      "url": "https://www.screener.in/company/ASIANPAINT/consolidated/"
+    },
+    {
+      "id": "Food - Processing - MNC",
+      "name": "Food - Processing - MNC",
+      "type": "industry"
+    },
+    {
+      "id": "Automobiles - LCVs / HCVs",
+      "name": "Automobiles - LCVs / HCVs",
+      "type": "industry"
+    },
+    {
+      "id": "TATAMOTORS",
+      "name": "Tata Motors Ltd",
+      "type": "company",
+      "industry": "Automobiles - LCVs / HCVs",
+      "url": "https://www.screener.in/company/TATAMOTORS/consolidated/"
+    },
+    {
+      "id": "Automobiles - Scooters And 3 - Wheelers",
+      "name": "Automobiles - Scooters And 3 - Wheelers",
+      "type": "industry"
+    },
+    {
+      "id": "BAJAJ-AUTO",
+      "name": "Bajaj Auto Ltd",
+      "type": "company",
+      "industry": "Automobiles - Scooters And 3 - Wheelers",
+      "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/"
+    },
+    {
+      "id": "ETERNAL",
+      "name": "Eternal Ltd",
+      "type": "company",
+      "industry": "Miscellaneous",
+      "url": "https://www.screener.in/company/ETERNAL/consolidated/"
+    },
+    {
+      "id": "Electronics - Components",
+      "name": "Electronics - Components",
+      "type": "industry"
+    },
+    {
+      "id": "BEL",
+      "name": "Bharat Electronics Ltd",
+      "type": "company",
+      "industry": "Electronics - Components",
+      "url": "https://www.screener.in/company/BEL/consolidated/"
+    },
+    {
+      "id": "ADANIPOWER",
+      "name": "Adani Power Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/ADANIPOWER/consolidated/"
+    },
+    {
+      "id": "Transport - Airlines",
+      "name": "Transport - Airlines",
+      "type": "industry"
+    },
+    {
+      "id": "IOC",
+      "name": "Indian Oil Corporation Ltd",
+      "type": "company",
+      "industry": "Refineries",
+      "url": "https://www.screener.in/company/IOC/consolidated/"
+    },
+    {
+      "id": "Food - Processing - Indian",
+      "name": "Food - Processing - Indian",
+      "type": "industry"
+    },
+    {
+      "id": "VBL",
+      "name": "Varun Beverages Ltd",
+      "type": "company",
+      "industry": "Food - Processing - Indian",
+      "url": "https://www.screener.in/company/VBL/consolidated/"
+    },
+    {
+      "id": "Textiles - Manmade",
+      "name": "Textiles - Manmade",
+      "type": "industry"
+    },
+    {
+      "id": "GRASIM",
+      "name": "Grasim Industries Ltd",
+      "type": "company",
+      "industry": "Textiles - Manmade",
+      "url": "https://www.screener.in/company/GRASIM/consolidated/"
+    },
+    {
+      "id": "TRENT",
+      "name": "Trent Ltd",
+      "type": "company",
+      "industry": "Trading",
+      "url": "https://www.screener.in/company/TRENT/consolidated/"
+    },
+    {
+      "id": "TATASTEEL",
+      "name": "Tata Steel Ltd",
+      "type": "company",
+      "industry": "Steel - Large",
+      "url": "https://www.screener.in/company/TATASTEEL/consolidated/"
+    },
+    {
+      "id": "Finance - Term-Lending Institutions",
+      "name": "Finance - Term-Lending Institutions",
+      "type": "industry"
+    },
+    {
+      "id": "Construction",
+      "name": "Construction",
+      "type": "industry"
+    },
+    {
+      "id": "DLF",
+      "name": "DLF Ltd",
+      "type": "company",
+      "industry": "Construction",
+      "url": "https://www.screener.in/company/DLF/consolidated/"
+    },
+    {
+      "id": "JIOFIN",
+      "name": "Jio Financial Services Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/JIOFIN/consolidated/"
+    },
+    {
+      "id": "VEDL",
+      "name": "Vedanta Ltd",
+      "type": "company",
+      "industry": "Mining / Minerals / Metals",
+      "url": "https://www.screener.in/company/VEDL/consolidated/"
+    },
+    {
+      "id": "Automobiles - Motorcycles / Mopeds",
+      "name": "Automobiles - Motorcycles / Mopeds",
+      "type": "industry"
+    },
+    {
+      "id": "EICHERMOT",
+      "name": "Eicher Motors Ltd",
+      "type": "company",
+      "industry": "Automobiles - Motorcycles / Mopeds",
+      "url": "https://www.screener.in/company/EICHERMOT/consolidated/"
+    },
+    {
+      "id": "HDFCLIFE",
+      "name": "HDFC Life Insurance Company Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/HDFCLIFE/consolidated/"
+    },
+    {
+      "id": "Chemicals",
+      "name": "Chemicals",
+      "type": "industry"
+    },
+    {
+      "id": "PIDILITIND",
+      "name": "Pidilite Industries Ltd",
+      "type": "company",
+      "industry": "Chemicals",
+      "url": "https://www.screener.in/company/PIDILITIND/consolidated/"
+    },
+    {
+      "id": "ADANIGREEN",
+      "name": "Adani Green Energy Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/ADANIGREEN/consolidated/"
+    },
+    {
+      "id": "Pharmaceuticals - Indian - Bulk Drugs",
+      "name": "Pharmaceuticals - Indian - Bulk Drugs",
+      "type": "industry"
+    },
+    {
+      "id": "DIVISLAB",
+      "name": "Divis Laboratories Ltd",
+      "type": "company",
+      "industry": "Pharmaceuticals - Indian - Bulk Drugs",
+      "url": "https://www.screener.in/company/DIVISLAB/consolidated/"
+    },
+    {
+      "id": "AMBUJACEM",
+      "name": "Ambuja Cements Ltd",
+      "type": "company",
+      "industry": "Cement - North India",
+      "url": "https://www.screener.in/company/AMBUJACEM/consolidated/"
+    },
+    {
+      "id": "PFC",
+      "name": "Power Finance Corporation Ltd",
+      "type": "company",
+      "industry": "Finance - Term-Lending Institutions",
+      "url": "https://www.screener.in/company/PFC/consolidated/"
+    },
+    {
+      "id": "Aluminium and Aluminium Products",
+      "name": "Aluminium and Aluminium Products",
+      "type": "industry"
+    },
+    {
+      "id": "HINDALCO",
+      "name": "Hindalco Industries Ltd",
+      "type": "company",
+      "industry": "Aluminium and Aluminium Products",
+      "url": "https://www.screener.in/company/HINDALCO/consolidated/"
+    },
+    {
+      "id": "CHOLAFIN",
+      "name": "Cholamandalam Investment & Finance Company Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/CHOLAFIN/consolidated/"
+    },
+    {
+      "id": "BAJAJHLDNG",
+      "name": "Bajaj Holdings & Investment Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/BAJAJHLDNG/consolidated/"
+    },
+    {
+      "id": "BRITANNIA",
+      "name": "Britannia Industries Ltd",
+      "type": "company",
+      "industry": "Food - Processing - MNC",
+      "url": "https://www.screener.in/company/BRITANNIA/consolidated/"
+    },
+    {
+      "id": "SHRIRAMFIN",
+      "name": "Shriram Finance Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/SHRIRAMFIN/consolidated/"
+    },
+    {
+      "id": "BPCL",
+      "name": "Bharat Petroleum Corporation Ltd",
+      "type": "company",
+      "industry": "Refineries",
+      "url": "https://www.screener.in/company/BPCL/consolidated/"
+    },
+    {
+      "id": "TECHM",
+      "name": "Tech Mahindra Ltd",
+      "type": "company",
+      "industry": "Computers - Software - Large",
+      "url": "https://www.screener.in/company/TECHM/consolidated/"
+    },
+    {
+      "id": "TVSMOTOR",
+      "name": "TVS Motor Company Ltd",
+      "type": "company",
+      "industry": "Automobiles - Motorcycles / Mopeds",
+      "url": "https://www.screener.in/company/TVSMOTOR/consolidated/"
+    },
+    {
+      "id": "Personal Care - Indian",
+      "name": "Personal Care - Indian",
+      "type": "industry"
+    },
+    {
+      "id": "GODREJCP",
+      "name": "Godrej Consumer Products Ltd",
+      "type": "company",
+      "industry": "Personal Care - Indian",
+      "url": "https://www.screener.in/company/GODREJCP/consolidated/"
+    },
+    {
+      "id": "BANKBARODA",
+      "name": "Bank of Baroda",
+      "type": "company",
+      "industry": "Banks - Public Sector",
+      "url": "https://www.screener.in/company/BANKBARODA/consolidated/"
+    },
+    {
+      "id": "LTIM",
+      "name": "LTIMindtree Ltd",
+      "type": "company",
+      "industry": "Computers - Software - Large",
+      "url": "https://www.screener.in/company/LTIM/consolidated/"
+    },
+    {
+      "id": "LODHA",
+      "name": "Macrotech Developers Ltd",
+      "type": "company",
+      "industry": "Construction",
+      "url": "https://www.screener.in/company/LODHA/consolidated/"
+    },
+    {
+      "id": "GAIL",
+      "name": "GAIL (India) Ltd",
+      "type": "company",
+      "industry": "Miscellaneous",
+      "url": "https://www.screener.in/company/GAIL/consolidated/"
+    },
+    {
+      "id": "CIPLA",
+      "name": "Cipla Ltd",
+      "type": "company",
+      "industry": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+      "url": "https://www.screener.in/company/CIPLA/consolidated/"
+    },
+    {
+      "id": "TATAPOWER",
+      "name": "Tata Power Company Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/TATAPOWER/consolidated/"
+    },
+    {
+      "id": "Hotels",
+      "name": "Hotels",
+      "type": "industry"
+    },
+    {
+      "id": "INDHOTEL",
+      "name": "Indian Hotels Co Ltd",
+      "type": "company",
+      "industry": "Hotels",
+      "url": "https://www.screener.in/company/INDHOTEL/consolidated/"
+    },
+    {
+      "id": "Electric Equipment",
+      "name": "Electric Equipment",
+      "type": "industry"
+    },
+    {
+      "id": "PNB",
+      "name": "Punjab National Bank",
+      "type": "company",
+      "industry": "Banks - Public Sector",
+      "url": "https://www.screener.in/company/PNB/consolidated/"
+    },
+    {
+      "id": "RECLTD",
+      "name": "REC Ltd",
+      "type": "company",
+      "industry": "Finance - Term-Lending Institutions",
+      "url": "https://www.screener.in/company/RECLTD/consolidated/"
+    },
+    {
+      "id": "SHREECEM",
+      "name": "Shree Cement Ltd",
+      "type": "company",
+      "industry": "Cement - North India",
+      "url": "https://www.screener.in/company/SHREECEM/consolidated/"
+    },
+    {
+      "id": "Tea",
+      "name": "Tea",
+      "type": "industry"
+    },
+    {
+      "id": "TATACONSUM",
+      "name": "Tata Consumer Products Ltd",
+      "type": "company",
+      "industry": "Tea",
+      "url": "https://www.screener.in/company/TATACONSUM/consolidated/"
+    },
+    {
+      "id": "Breweries & Distilleries",
+      "name": "Breweries & Distilleries",
+      "type": "industry"
+    },
+    {
+      "id": "UNITDSPR",
+      "name": "United Spirits Ltd",
+      "type": "company",
+      "industry": "Breweries & Distilleries",
+      "url": "https://www.screener.in/company/UNITDSPR/consolidated/"
+    },
+    {
+      "id": "Pharmaceuticals - Indian - Formulations",
+      "name": "Pharmaceuticals - Indian - Formulations",
+      "type": "industry"
+    },
+    {
+      "id": "TORNTPHARM",
+      "name": "Torrent Pharmaceuticals Ltd",
+      "type": "company",
+      "industry": "Pharmaceuticals - Indian - Formulations",
+      "url": "https://www.screener.in/company/TORNTPHARM/consolidated/"
+    },
+    {
+      "id": "ADANIENSOL",
+      "name": "Adani Energy Solutions Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/ADANIENSOL/consolidated/"
+    },
+    {
+      "id": "Finance - Housing",
+      "name": "Finance - Housing",
+      "type": "industry"
+    },
+    {
+      "id": "HAVELLS",
+      "name": "Havells India Ltd",
+      "type": "company",
+      "industry": "Electric Equipment",
+      "url": "https://www.screener.in/company/HAVELLS/consolidated/"
+    },
+    {
+      "id": "Healthcare",
+      "name": "Healthcare",
+      "type": "industry"
+    },
+    {
+      "id": "APOLLOHOSP",
+      "name": "Apollo Hospitals Enterprise Ltd",
+      "type": "company",
+      "industry": "Healthcare",
+      "url": "https://www.screener.in/company/APOLLOHOSP/consolidated/"
+    },
+    {
+      "id": "SIEMENS",
+      "name": "Siemens Ltd",
+      "type": "company",
+      "industry": "Electric Equipment",
+      "url": "https://www.screener.in/company/SIEMENS/consolidated/"
+    },
+    {
+      "id": "DRREDDY",
+      "name": "Dr Reddys Laboratories Ltd",
+      "type": "company",
+      "industry": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+      "url": "https://www.screener.in/company/DRREDDY/consolidated/"
+    },
+    {
+      "id": "CGPOWER",
+      "name": "CG Power & Industrial Solutions Ltd",
+      "type": "company",
+      "industry": "Electric Equipment",
+      "url": "https://www.screener.in/company/CGPOWER/consolidated/"
+    },
+    {
+      "id": "Auto Ancillaries",
+      "name": "Auto Ancillaries",
+      "type": "industry"
+    },
+    {
+      "id": "MOTHERSON",
+      "name": "Samvardhana Motherson International Ltd",
+      "type": "company",
+      "industry": "Auto Ancillaries",
+      "url": "https://www.screener.in/company/MOTHERSON/consolidated/"
+    },
+    {
+      "id": "JINDALSTEL",
+      "name": "Jindal Steel & Power Ltd",
+      "type": "company",
+      "industry": "Steel - Large",
+      "url": "https://www.screener.in/company/JINDALSTEL/consolidated/"
+    },
+    {
+      "id": "JSWENERGY",
+      "name": "JSW Energy Ltd",
+      "type": "company",
+      "industry": "Power Generation And Supply",
+      "url": "https://www.screener.in/company/JSWENERGY/consolidated/"
+    },
+    {
+      "id": "NAUKRI",
+      "name": "Info Edge (India) Ltd",
+      "type": "company",
+      "industry": "Miscellaneous",
+      "url": "https://www.screener.in/company/NAUKRI/consolidated/"
+    },
+    {
+      "id": "CANBK",
+      "name": "Canara Bank",
+      "type": "company",
+      "industry": "Banks - Public Sector",
+      "url": "https://www.screener.in/company/CANBK/consolidated/"
+    },
+    {
+      "id": "ICICIPRULI",
+      "name": "ICICI Prudential Life Insurance Company Ltd",
+      "type": "company",
+      "industry": "Finance & Investments",
+      "url": "https://www.screener.in/company/ICICIPRULI/consolidated/"
+    },
+    {
+      "id": "DABUR",
+      "name": "Dabur India Ltd",
+      "type": "company",
+      "industry": "Personal Care - Indian",
+      "url": "https://www.screener.in/company/DABUR/consolidated/"
+    },
+    {
+      "id": "ZYDUSLIFE",
+      "name": "Zydus Lifesciences Ltd",
+      "type": "company",
+      "industry": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+      "url": "https://www.screener.in/company/ZYDUSLIFE/consolidated/"
+    },
+    {
+      "id": "SWIGGY",
+      "name": "Swiggy Ltd",
+      "type": "company",
+      "industry": "Miscellaneous",
+      "url": "https://www.screener.in/company/SWIGGY/consolidated/"
+    },
+    {
+      "id": "HEROMOTOCO",
+      "name": "Hero MotoCorp Ltd",
+      "type": "company",
+      "industry": "Automobiles - Motorcycles / Mopeds",
+      "url": "https://www.screener.in/company/HEROMOTOCO/consolidated/"
+    }
+  ],
+  "links": [
+    {
+      "source": "RELIANCE",
+      "target": "Refineries"
+    },
+    {
+      "source": "HDFCBANK",
+      "target": "Banks - Private Sector"
+    },
+    {
+      "source": "TCS",
+      "target": "Computers - Software - Large"
+    },
+    {
+      "source": "BHARTIARTL",
+      "target": "Telecommunications - Service Provider"
+    },
+    {
+      "source": "ICICIBANK",
+      "target": "Banks - Private Sector"
+    },
+    {
+      "source": "SBIN",
+      "target": "Banks - Public Sector"
+    },
+    {
+      "source": "INFY",
+      "target": "Computers - Software - Large"
+    },
+    {
+      "source": "BAJFINANCE",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "HINDUNILVR",
+      "target": "Personal Care - Multinational"
+    },
+    {
+      "source": "ITC",
+      "target": "Cigarettes"
+    },
+    {
+      "source": "LICI",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "LT",
+      "target": "Engineering - Turnkey Services"
+    },
+    {
+      "source": "KOTAKBANK",
+      "target": "Banks - Private Sector"
+    },
+    {
+      "source": "SUNPHARMA",
+      "target": "Pharmaceuticals - Indian - Bulk Drugs & Formln"
+    },
+    {
+      "source": "HCLTECH",
+      "target": "Computers - Software - Large"
+    },
+    {
+      "source": "AXISBANK",
+      "target": "Banks - Private Sector"
+    },
+    {
+      "source": "MARUTI",
+      "target": "Automobiles - Passenger Cars"
+    },
+    {
+      "source": "NTPC",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "ULTRACEMCO",
+      "target": "Cement - North India"
+    },
+    {
+      "source": "M&M",
+      "target": "Automobiles - Passenger Cars"
+    },
+    {
+      "source": "BAJAJFINSV",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "ONGC",
+      "target": "Oil Drilling / Allied Services"
+    },
+    {
+      "source": "TITAN",
+      "target": "Diamond Cutting / Jewellery"
+    },
+    {
+      "source": "POWERGRID",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "DMART",
+      "target": "Trading"
+    },
+    {
+      "source": "company",
+      "target": "Engineering"
+    },
+    {
+      "source": "ADANIENT",
+      "target": "Trading"
+    },
+    {
+      "source": "ADANIPORTS",
+      "target": "Miscellaneous"
+    },
+    {
+      "source": "WIPRO",
+      "target": "Computers - Software - Large"
+    },
+    {
+      "source": "JSWSTEEL",
+      "target": "Steel - Large"
+    },
+    {
+      "source": "COALINDIA",
+      "target": "Mining / Minerals / Metals"
+    },
+    {
+      "source": "ASIANPAINT",
+      "target": "Paints / Varnishes"
+    },
+    {
+      "source": "company",
+      "target": "Food - Processing - MNC"
+    },
+    {
+      "source": "TATAMOTORS",
+      "target": "Automobiles - LCVs / HCVs"
+    },
+    {
+      "source": "BAJAJ-AUTO",
+      "target": "Automobiles - Scooters And 3 - Wheelers"
+    },
+    {
+      "source": "ETERNAL",
+      "target": "Miscellaneous"
+    },
+    {
+      "source": "BEL",
+      "target": "Electronics - Components"
+    },
+    {
+      "source": "ADANIPOWER",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "company",
+      "target": "Transport - Airlines"
+    },
+    {
+      "source": "IOC",
+      "target": "Refineries"
+    },
+    {
+      "source": "VBL",
+      "target": "Food - Processing - Indian"
+    },
+    {
+      "source": "GRASIM",
+      "target": "Textiles - Manmade"
+    },
+    {
+      "source": "TRENT",
+      "target": "Trading"
+    },
+    {
+      "source": "TATASTEEL",
+      "target": "Steel - Large"
+    },
+    {
+      "source": "company",
+      "target": "Finance - Term-Lending Institutions"
+    },
+    {
+      "source": "DLF",
+      "target": "Construction"
+    },
+    {
+      "source": "company",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "JIOFIN",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "VEDL",
+      "target": "Mining / Minerals / Metals"
+    },
+    {
+      "source": "EICHERMOT",
+      "target": "Automobiles - Motorcycles / Mopeds"
+    },
+    {
+      "source": "HDFCLIFE",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "PIDILITIND",
+      "target": "Chemicals"
+    },
+    {
+      "source": "ADANIGREEN",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "DIVISLAB",
+      "target": "Pharmaceuticals - Indian - Bulk Drugs"
+    },
+    {
+      "source": "AMBUJACEM",
+      "target": "Cement - North India"
+    },
+    {
+      "source": "PFC",
+      "target": "Finance - Term-Lending Institutions"
+    },
+    {
+      "source": "HINDALCO",
+      "target": "Aluminium and Aluminium Products"
+    },
+    {
+      "source": "company",
+      "target": "Automobiles - Passenger Cars"
+    },
+    {
+      "source": "CHOLAFIN",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "BAJAJHLDNG",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "BRITANNIA",
+      "target": "Food - Processing - MNC"
+    },
+    {
+      "source": "SHRIRAMFIN",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "BPCL",
+      "target": "Refineries"
+    },
+    {
+      "source": "TECHM",
+      "target": "Computers - Software - Large"
+    },
+    {
+      "source": "TVSMOTOR",
+      "target": "Automobiles - Motorcycles / Mopeds"
+    },
+    {
+      "source": "GODREJCP",
+      "target": "Personal Care - Indian"
+    },
+    {
+      "source": "BANKBARODA",
+      "target": "Banks - Public Sector"
+    },
+    {
+      "source": "LTIM",
+      "target": "Computers - Software - Large"
+    },
+    {
+      "source": "LODHA",
+      "target": "Construction"
+    },
+    {
+      "source": "GAIL",
+      "target": "Miscellaneous"
+    },
+    {
+      "source": "CIPLA",
+      "target": "Pharmaceuticals - Indian - Bulk Drugs & Formln"
+    },
+    {
+      "source": "TATAPOWER",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "INDHOTEL",
+      "target": "Hotels"
+    },
+    {
+      "source": "company",
+      "target": "Electric Equipment"
+    },
+    {
+      "source": "PNB",
+      "target": "Banks - Public Sector"
+    },
+    {
+      "source": "RECLTD",
+      "target": "Finance - Term-Lending Institutions"
+    },
+    {
+      "source": "SHREECEM",
+      "target": "Cement - North India"
+    },
+    {
+      "source": "TATACONSUM",
+      "target": "Tea"
+    },
+    {
+      "source": "UNITDSPR",
+      "target": "Breweries & Distilleries"
+    },
+    {
+      "source": "TORNTPHARM",
+      "target": "Pharmaceuticals - Indian - Formulations"
+    },
+    {
+      "source": "ADANIENSOL",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "company",
+      "target": "Finance - Housing"
+    },
+    {
+      "source": "HAVELLS",
+      "target": "Electric Equipment"
+    },
+    {
+      "source": "APOLLOHOSP",
+      "target": "Healthcare"
+    },
+    {
+      "source": "SIEMENS",
+      "target": "Electric Equipment"
+    },
+    {
+      "source": "DRREDDY",
+      "target": "Pharmaceuticals - Indian - Bulk Drugs & Formln"
+    },
+    {
+      "source": "CGPOWER",
+      "target": "Electric Equipment"
+    },
+    {
+      "source": "MOTHERSON",
+      "target": "Auto Ancillaries"
+    },
+    {
+      "source": "JINDALSTEL",
+      "target": "Steel - Large"
+    },
+    {
+      "source": "company",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "JSWENERGY",
+      "target": "Power Generation And Supply"
+    },
+    {
+      "source": "NAUKRI",
+      "target": "Miscellaneous"
+    },
+    {
+      "source": "CANBK",
+      "target": "Banks - Public Sector"
+    },
+    {
+      "source": "ICICIPRULI",
+      "target": "Finance & Investments"
+    },
+    {
+      "source": "DABUR",
+      "target": "Personal Care - Indian"
+    },
+    {
+      "source": "ZYDUSLIFE",
+      "target": "Pharmaceuticals - Indian - Bulk Drugs & Formln"
+    },
+    {
+      "source": "company",
+      "target": "Auto Ancillaries"
+    },
+    {
+      "source": "SWIGGY",
+      "target": "Miscellaneous"
+    },
+    {
+      "source": "HEROMOTOCO",
+      "target": "Automobiles - Motorcycles / Mopeds"
+    },
+    {
+      "source": "company",
+      "target": "Banks - Private Sector"
+    }
+  ]
+}

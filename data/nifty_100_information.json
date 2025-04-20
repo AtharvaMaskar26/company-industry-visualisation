@@ -1,0 +1,702 @@
+[
+    {
+        "scrip_url": "https://www.screener.in/company/RELIANCE/consolidated/",
+        "company_code": "RELIANCE",
+        "scrip_name": "Reliance Industries Ltd",
+        "industry_name": "Refineries",
+        "industry_url": "https://www.screener.in/company/compare/00000052/00000080/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HDFCBANK/consolidated/",
+        "company_code": "HDFCBANK",
+        "scrip_name": "HDFC Bank Ltd",
+        "industry_name": "Banks - Private Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000012/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TCS/consolidated/",
+        "company_code": "TCS",
+        "scrip_name": "Tata Consultancy Services Ltd",
+        "industry_name": "Computers - Software - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000034/00000027/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
+        "company_code": "BHARTIARTL",
+        "scrip_name": "Bharti Airtel Ltd",
+        "industry_name": "Telecommunications - Service Provider",
+        "industry_url": "https://www.screener.in/company/compare/00000061/00000090/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ICICIBANK/consolidated/",
+        "company_code": "ICICIBANK",
+        "scrip_name": "ICICI Bank Ltd",
+        "industry_name": "Banks - Private Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000012/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SBIN/consolidated/",
+        "company_code": "SBIN",
+        "scrip_name": "State Bank of India",
+        "industry_name": "Banks - Public Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000011/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/INFY/consolidated/",
+        "company_code": "INFY",
+        "scrip_name": "Infosys Ltd",
+        "industry_name": "Computers - Software - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000034/00000027/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
+        "company_code": "BAJFINANCE",
+        "scrip_name": "Bajaj Finance Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HINDUNILVR/consolidated/",
+        "company_code": "HINDUNILVR",
+        "scrip_name": "Hindustan Unilever Ltd",
+        "industry_name": "Personal Care - Multinational",
+        "industry_url": "https://www.screener.in/company/compare/00000027/00000066/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ITC/consolidated/",
+        "company_code": "ITC",
+        "scrip_name": "ITC Ltd",
+        "industry_name": "Cigarettes",
+        "industry_url": "https://www.screener.in/company/compare/00000063/00000024/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/LICI/consolidated/",
+        "company_code": "LICI",
+        "scrip_name": "Life Insurance Corporation of India",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000067/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/LT/consolidated/",
+        "company_code": "LT",
+        "scrip_name": "Larsen & Toubro Ltd",
+        "industry_name": "Engineering - Turnkey Services",
+        "industry_url": "https://www.screener.in/company/compare/00000032/00000045/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/KOTAKBANK/consolidated/",
+        "company_code": "KOTAKBANK",
+        "scrip_name": "Kotak Mahindra Bank Ltd",
+        "industry_name": "Banks - Private Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000012/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SUNPHARMA/consolidated/",
+        "company_code": "SUNPHARMA",
+        "scrip_name": "Sun Pharmaceutical Industries Ltd",
+        "industry_name": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+        "industry_url": "https://www.screener.in/company/compare/00000046/00000070/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HCLTECH/consolidated/",
+        "company_code": "HCLTECH",
+        "scrip_name": "HCL Technologies Ltd",
+        "industry_name": "Computers - Software - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000034/00000027/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/AXISBANK/consolidated/",
+        "company_code": "AXISBANK",
+        "scrip_name": "Axis Bank Ltd",
+        "industry_name": "Banks - Private Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000012/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/MARUTI/consolidated/",
+        "company_code": "MARUTI",
+        "scrip_name": "Maruti Suzuki India Ltd",
+        "industry_name": "Automobiles - Passenger Cars",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000006/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/NTPC/consolidated/",
+        "company_code": "NTPC",
+        "scrip_name": "NTPC Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ULTRACEMCO/consolidated/",
+        "company_code": "ULTRACEMCO",
+        "scrip_name": "UltraTech Cement Ltd",
+        "industry_name": "Cement - North India",
+        "industry_url": "https://www.screener.in/company/compare/00000011/00000018/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/M&M/consolidated/",
+        "company_code": "M&M",
+        "scrip_name": "Mahindra & Mahindra Ltd",
+        "industry_name": "Automobiles - Passenger Cars",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000006/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BAJAJFINSV/consolidated/",
+        "company_code": "BAJAJFINSV",
+        "scrip_name": "Bajaj Finserv Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ONGC/consolidated/",
+        "company_code": "ONGC",
+        "scrip_name": "Oil & Natural Gas Corpn Ltd",
+        "industry_name": "Oil Drilling / Allied Services",
+        "industry_url": "https://www.screener.in/company/compare/00000019/00000061/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TITAN/consolidated/",
+        "company_code": "TITAN",
+        "scrip_name": "Titan Company Ltd",
+        "industry_name": "Diamond Cutting / Jewellery",
+        "industry_url": "https://www.screener.in/company/compare/00000020/00000035/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/POWERGRID/consolidated/",
+        "company_code": "POWERGRID",
+        "scrip_name": "Power Grid Corporation of India Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/DMART/consolidated/",
+        "company_code": "DMART",
+        "scrip_name": "Avenue Supermarts Ltd",
+        "industry_name": "Trading",
+        "industry_url": "https://www.screener.in/company/compare/00000054/00000101/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HAL/",
+        "company_code": "company",
+        "scrip_name": "Hindustan Aeronautics Ltd",
+        "industry_name": "Engineering",
+        "industry_url": "https://www.screener.in/company/compare/00000085/00000044/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ADANIENT/consolidated/",
+        "company_code": "ADANIENT",
+        "scrip_name": "Adani Enterprises Ltd",
+        "industry_name": "Trading",
+        "industry_url": "https://www.screener.in/company/compare/00000064/00000101/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ADANIPORTS/consolidated/",
+        "company_code": "ADANIPORTS",
+        "scrip_name": "Adani Ports & Special Economic Zone Ltd",
+        "industry_name": "Miscellaneous",
+        "industry_url": "https://www.screener.in/company/compare/00000083/00000106/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/WIPRO/consolidated/",
+        "company_code": "WIPRO",
+        "scrip_name": "Wipro Ltd",
+        "industry_name": "Computers - Software - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000034/00000027/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/JSWSTEEL/consolidated/",
+        "company_code": "JSWSTEEL",
+        "scrip_name": "JSW Steel Ltd",
+        "industry_name": "Steel - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000057/00000084/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/COALINDIA/consolidated/",
+        "company_code": "COALINDIA",
+        "scrip_name": "Coal India Ltd",
+        "industry_name": "Mining / Minerals / Metals",
+        "industry_url": "https://www.screener.in/company/compare/00000038/00000059/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
+        "company_code": "ASIANPAINT",
+        "scrip_name": "Asian Paints Ltd",
+        "industry_name": "Paints / Varnishes",
+        "industry_url": "https://www.screener.in/company/compare/00000043/00000063/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/NESTLEIND/",
+        "company_code": "company",
+        "scrip_name": "Nestle India Ltd",
+        "industry_name": "Food - Processing - MNC",
+        "industry_url": "https://www.screener.in/company/compare/00000027/00000054/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TATAMOTORS/consolidated/",
+        "company_code": "TATAMOTORS",
+        "scrip_name": "Tata Motors Ltd",
+        "industry_name": "Automobiles - LCVs / HCVs",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000005/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
+        "company_code": "BAJAJ-AUTO",
+        "scrip_name": "Bajaj Auto Ltd",
+        "industry_name": "Automobiles - Scooters And 3 - Wheelers",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000008/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ETERNAL/consolidated/",
+        "company_code": "ETERNAL",
+        "scrip_name": "Eternal Ltd",
+        "industry_name": "Miscellaneous",
+        "industry_url": "https://www.screener.in/company/compare/00000080/00000106/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BEL/consolidated/",
+        "company_code": "BEL",
+        "scrip_name": "Bharat Electronics Ltd",
+        "industry_name": "Electronics - Components",
+        "industry_url": "https://www.screener.in/company/compare/00000085/00000043/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ADANIPOWER/consolidated/",
+        "company_code": "ADANIPOWER",
+        "scrip_name": "Adani Power Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/INDIGO/",
+        "company_code": "company",
+        "scrip_name": "Interglobe Aviation Ltd",
+        "industry_name": "Transport - Airlines",
+        "industry_url": "https://www.screener.in/company/compare/00000002/00000103/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/IOC/consolidated/",
+        "company_code": "IOC",
+        "scrip_name": "Indian Oil Corporation Ltd",
+        "industry_name": "Refineries",
+        "industry_url": "https://www.screener.in/company/compare/00000052/00000080/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/VBL/consolidated/",
+        "company_code": "VBL",
+        "scrip_name": "Varun Beverages Ltd",
+        "industry_name": "Food - Processing - Indian",
+        "industry_url": "https://www.screener.in/company/compare/00000027/00000053/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/GRASIM/consolidated/",
+        "company_code": "GRASIM",
+        "scrip_name": "Grasim Industries Ltd",
+        "industry_name": "Textiles - Manmade",
+        "industry_url": "https://www.screener.in/company/compare/00000062/00000095/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TRENT/consolidated/",
+        "company_code": "TRENT",
+        "scrip_name": "Trent Ltd",
+        "industry_name": "Trading",
+        "industry_url": "https://www.screener.in/company/compare/00000054/00000101/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TATASTEEL/consolidated/",
+        "company_code": "TATASTEEL",
+        "scrip_name": "Tata Steel Ltd",
+        "industry_name": "Steel - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000057/00000084/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/IRFC/",
+        "company_code": "company",
+        "scrip_name": "Indian Railway Finance Corporation Ltd",
+        "industry_name": "Finance - Term-Lending Institutions",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000052/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/DLF/consolidated/",
+        "company_code": "DLF",
+        "scrip_name": "DLF Ltd",
+        "industry_name": "Construction",
+        "industry_url": "https://www.screener.in/company/compare/00000051/00000031/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SBILIFE/",
+        "company_code": "company",
+        "scrip_name": "SBI Life Insurance Company Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000067/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/JIOFIN/consolidated/",
+        "company_code": "JIOFIN",
+        "scrip_name": "Jio Financial Services Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/VEDL/consolidated/",
+        "company_code": "VEDL",
+        "scrip_name": "Vedanta Ltd",
+        "industry_name": "Mining / Minerals / Metals",
+        "industry_url": "https://www.screener.in/company/compare/00000038/00000059/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/EICHERMOT/consolidated/",
+        "company_code": "EICHERMOT",
+        "scrip_name": "Eicher Motors Ltd",
+        "industry_name": "Automobiles - Motorcycles / Mopeds",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000009/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HDFCLIFE/consolidated/",
+        "company_code": "HDFCLIFE",
+        "scrip_name": "HDFC Life Insurance Company Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000067/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+        "company_code": "PIDILITIND",
+        "scrip_name": "Pidilite Industries Ltd",
+        "industry_name": "Chemicals",
+        "industry_url": "https://www.screener.in/company/compare/00000014/00000022/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ADANIGREEN/consolidated/",
+        "company_code": "ADANIGREEN",
+        "scrip_name": "Adani Green Energy Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
+        "company_code": "DIVISLAB",
+        "scrip_name": "Divis Laboratories Ltd",
+        "industry_name": "Pharmaceuticals - Indian - Bulk Drugs",
+        "industry_url": "https://www.screener.in/company/compare/00000046/00000071/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/AMBUJACEM/consolidated/",
+        "company_code": "AMBUJACEM",
+        "scrip_name": "Ambuja Cements Ltd",
+        "industry_name": "Cement - North India",
+        "industry_url": "https://www.screener.in/company/compare/00000011/00000018/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/PFC/consolidated/",
+        "company_code": "PFC",
+        "scrip_name": "Power Finance Corporation Ltd",
+        "industry_name": "Finance - Term-Lending Institutions",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000052/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HINDALCO/consolidated/",
+        "company_code": "HINDALCO",
+        "scrip_name": "Hindalco Industries Ltd",
+        "industry_name": "Aluminium and Aluminium Products",
+        "industry_url": "https://www.screener.in/company/compare/00000040/00000003/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HYUNDAI/",
+        "company_code": "company",
+        "scrip_name": "Hyundai Motor India Ltd",
+        "industry_name": "Automobiles - Passenger Cars",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000006/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/CHOLAFIN/consolidated/",
+        "company_code": "CHOLAFIN",
+        "scrip_name": "Cholamandalam Investment & Finance Company Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BAJAJHLDNG/consolidated/",
+        "company_code": "BAJAJHLDNG",
+        "scrip_name": "Bajaj Holdings & Investment Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
+        "company_code": "BRITANNIA",
+        "scrip_name": "Britannia Industries Ltd",
+        "industry_name": "Food - Processing - MNC",
+        "industry_url": "https://www.screener.in/company/compare/00000027/00000054/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SHRIRAMFIN/consolidated/",
+        "company_code": "SHRIRAMFIN",
+        "scrip_name": "Shriram Finance Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BPCL/consolidated/",
+        "company_code": "BPCL",
+        "scrip_name": "Bharat Petroleum Corporation Ltd",
+        "industry_name": "Refineries",
+        "industry_url": "https://www.screener.in/company/compare/00000052/00000080/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TECHM/consolidated/",
+        "company_code": "TECHM",
+        "scrip_name": "Tech Mahindra Ltd",
+        "industry_name": "Computers - Software - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000034/00000027/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TVSMOTOR/consolidated/",
+        "company_code": "TVSMOTOR",
+        "scrip_name": "TVS Motor Company Ltd",
+        "industry_name": "Automobiles - Motorcycles / Mopeds",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000009/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/GODREJCP/consolidated/",
+        "company_code": "GODREJCP",
+        "scrip_name": "Godrej Consumer Products Ltd",
+        "industry_name": "Personal Care - Indian",
+        "industry_url": "https://www.screener.in/company/compare/00000027/00000065/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BANKBARODA/consolidated/",
+        "company_code": "BANKBARODA",
+        "scrip_name": "Bank of Baroda",
+        "industry_name": "Banks - Public Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000011/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/LTIM/consolidated/",
+        "company_code": "LTIM",
+        "scrip_name": "LTIMindtree Ltd",
+        "industry_name": "Computers - Software - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000034/00000027/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/LODHA/consolidated/",
+        "company_code": "LODHA",
+        "scrip_name": "Macrotech Developers Ltd",
+        "industry_name": "Construction",
+        "industry_url": "https://www.screener.in/company/compare/00000051/00000031/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/GAIL/consolidated/",
+        "company_code": "GAIL",
+        "scrip_name": "GAIL (India) Ltd",
+        "industry_name": "Miscellaneous",
+        "industry_url": "https://www.screener.in/company/compare/00000028/00000106/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/CIPLA/consolidated/",
+        "company_code": "CIPLA",
+        "scrip_name": "Cipla Ltd",
+        "industry_name": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+        "industry_url": "https://www.screener.in/company/compare/00000046/00000070/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TATAPOWER/consolidated/",
+        "company_code": "TATAPOWER",
+        "scrip_name": "Tata Power Company Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/INDHOTEL/consolidated/",
+        "company_code": "INDHOTEL",
+        "scrip_name": "Indian Hotels Co Ltd",
+        "industry_name": "Hotels",
+        "industry_url": "https://www.screener.in/company/compare/00000031/00000057/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ABB/",
+        "company_code": "company",
+        "scrip_name": "ABB India Ltd",
+        "industry_name": "Electric Equipment",
+        "industry_url": "https://www.screener.in/company/compare/00000008/00000039/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/PNB/consolidated/",
+        "company_code": "PNB",
+        "scrip_name": "Punjab National Bank",
+        "industry_name": "Banks - Public Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000011/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/RECLTD/consolidated/",
+        "company_code": "RECLTD",
+        "scrip_name": "REC Ltd",
+        "industry_name": "Finance - Term-Lending Institutions",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000052/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SHREECEM/consolidated/",
+        "company_code": "SHREECEM",
+        "scrip_name": "Shree Cement Ltd",
+        "industry_name": "Cement - North India",
+        "industry_url": "https://www.screener.in/company/compare/00000011/00000018/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TATACONSUM/consolidated/",
+        "company_code": "TATACONSUM",
+        "scrip_name": "Tata Consumer Products Ltd",
+        "industry_name": "Tea",
+        "industry_url": "https://www.screener.in/company/compare/00000047/00000089/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/UNITDSPR/consolidated/",
+        "company_code": "UNITDSPR",
+        "scrip_name": "United Spirits Ltd",
+        "industry_name": "Breweries & Distilleries",
+        "industry_url": "https://www.screener.in/company/compare/00000003/00000014/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/TORNTPHARM/consolidated/",
+        "company_code": "TORNTPHARM",
+        "scrip_name": "Torrent Pharmaceuticals Ltd",
+        "industry_name": "Pharmaceuticals - Indian - Formulations",
+        "industry_url": "https://www.screener.in/company/compare/00000046/00000072/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ADANIENSOL/consolidated/",
+        "company_code": "ADANIENSOL",
+        "scrip_name": "Adani Energy Solutions Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BAJAJHFL/",
+        "company_code": "company",
+        "scrip_name": "Bajaj Housing Finance Ltd",
+        "industry_name": "Finance - Housing",
+        "industry_url": "https://www.screener.in/company/compare/00000026/00000051/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HAVELLS/consolidated/",
+        "company_code": "HAVELLS",
+        "scrip_name": "Havells India Ltd",
+        "industry_name": "Electric Equipment",
+        "industry_url": "https://www.screener.in/company/compare/00000017/00000039/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/APOLLOHOSP/consolidated/",
+        "company_code": "APOLLOHOSP",
+        "scrip_name": "Apollo Hospitals Enterprise Ltd",
+        "industry_name": "Healthcare",
+        "industry_url": "https://www.screener.in/company/compare/00000030/00000056/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SIEMENS/consolidated/",
+        "company_code": "SIEMENS",
+        "scrip_name": "Siemens Ltd",
+        "industry_name": "Electric Equipment",
+        "industry_url": "https://www.screener.in/company/compare/00000008/00000039/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/DRREDDY/consolidated/",
+        "company_code": "DRREDDY",
+        "scrip_name": "Dr Reddys Laboratories Ltd",
+        "industry_name": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+        "industry_url": "https://www.screener.in/company/compare/00000046/00000070/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/CGPOWER/consolidated/",
+        "company_code": "CGPOWER",
+        "scrip_name": "CG Power & Industrial Solutions Ltd",
+        "industry_name": "Electric Equipment",
+        "industry_url": "https://www.screener.in/company/compare/00000008/00000039/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/MOTHERSON/consolidated/",
+        "company_code": "MOTHERSON",
+        "scrip_name": "Samvardhana Motherson International Ltd",
+        "industry_name": "Auto Ancillaries",
+        "industry_url": "https://www.screener.in/company/compare/00000004/00000010/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/JINDALSTEL/consolidated/",
+        "company_code": "JINDALSTEL",
+        "scrip_name": "Jindal Steel & Power Ltd",
+        "industry_name": "Steel - Large",
+        "industry_url": "https://www.screener.in/company/compare/00000057/00000084/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ICICIGI/",
+        "company_code": "company",
+        "scrip_name": "ICICI Lombard General Insurance Company Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000067/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/JSWENERGY/consolidated/",
+        "company_code": "JSWENERGY",
+        "scrip_name": "JSW Energy Ltd",
+        "industry_name": "Power Generation And Supply",
+        "industry_url": "https://www.screener.in/company/compare/00000049/00000076/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/NAUKRI/consolidated/",
+        "company_code": "NAUKRI",
+        "scrip_name": "Info Edge (India) Ltd",
+        "industry_name": "Miscellaneous",
+        "industry_url": "https://www.screener.in/company/compare/00000080/00000106/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/CANBK/consolidated/",
+        "company_code": "CANBK",
+        "scrip_name": "Canara Bank",
+        "industry_name": "Banks - Public Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000011/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ICICIPRULI/consolidated/",
+        "company_code": "ICICIPRULI",
+        "scrip_name": "ICICI Prudential Life Insurance Company Ltd",
+        "industry_name": "Finance & Investments",
+        "industry_url": "https://www.screener.in/company/compare/00000067/00000050/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/DABUR/consolidated/",
+        "company_code": "DABUR",
+        "scrip_name": "Dabur India Ltd",
+        "industry_name": "Personal Care - Indian",
+        "industry_url": "https://www.screener.in/company/compare/00000027/00000065/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/ZYDUSLIFE/consolidated/",
+        "company_code": "ZYDUSLIFE",
+        "scrip_name": "Zydus Lifesciences Ltd",
+        "industry_name": "Pharmaceuticals - Indian - Bulk Drugs & Formln",
+        "industry_url": "https://www.screener.in/company/compare/00000046/00000070/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/BOSCHLTD/",
+        "company_code": "company",
+        "scrip_name": "Bosch Ltd",
+        "industry_name": "Auto Ancillaries",
+        "industry_url": "https://www.screener.in/company/compare/00000004/00000010/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/SWIGGY/consolidated/",
+        "company_code": "SWIGGY",
+        "scrip_name": "Swiggy Ltd",
+        "industry_name": "Miscellaneous",
+        "industry_url": "https://www.screener.in/company/compare/00000080/00000106/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/HEROMOTOCO/consolidated/",
+        "company_code": "HEROMOTOCO",
+        "scrip_name": "Hero MotoCorp Ltd",
+        "industry_name": "Automobiles - Motorcycles / Mopeds",
+        "industry_url": "https://www.screener.in/company/compare/00000005/00000009/"
+    },
+    {
+        "scrip_url": "https://www.screener.in/company/INDUSINDBK/",
+        "company_code": "company",
+        "scrip_name": "IndusInd Bank Ltd",
+        "industry_name": "Banks - Private Sector",
+        "industry_url": "https://www.screener.in/company/compare/00000006/00000012/"
+    }
+]
