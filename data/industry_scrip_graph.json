@@ -948,10 +948,6 @@
       "target": "Trading"
     },
     {
-      "source": "company",
-      "target": "Engineering"
-    },
-    {
       "source": "ADANIENT",
       "target": "Trading"
     },
@@ -976,10 +972,6 @@
       "target": "Paints / Varnishes"
     },
     {
-      "source": "company",
-      "target": "Food - Processing - MNC"
-    },
-    {
       "source": "TATAMOTORS",
       "target": "Automobiles - LCVs / HCVs"
     },
@@ -998,10 +990,6 @@
     {
       "source": "ADANIPOWER",
       "target": "Power Generation And Supply"
-    },
-    {
-      "source": "company",
-      "target": "Transport - Airlines"
     },
     {
       "source": "IOC",
@@ -1024,16 +1012,8 @@
       "target": "Steel - Large"
     },
     {
-      "source": "company",
-      "target": "Finance - Term-Lending Institutions"
-    },
-    {
       "source": "DLF",
       "target": "Construction"
-    },
-    {
-      "source": "company",
-      "target": "Finance & Investments"
     },
     {
       "source": "JIOFIN",
@@ -1074,10 +1054,6 @@
     {
       "source": "HINDALCO",
       "target": "Aluminium and Aluminium Products"
-    },
-    {
-      "source": "company",
-      "target": "Automobiles - Passenger Cars"
     },
     {
       "source": "CHOLAFIN",
@@ -1140,10 +1116,6 @@
       "target": "Hotels"
     },
     {
-      "source": "company",
-      "target": "Electric Equipment"
-    },
-    {
       "source": "PNB",
       "target": "Banks - Public Sector"
     },
@@ -1170,10 +1142,6 @@
     {
       "source": "ADANIENSOL",
       "target": "Power Generation And Supply"
-    },
-    {
-      "source": "company",
-      "target": "Finance - Housing"
     },
     {
       "source": "HAVELLS",
@@ -1204,10 +1172,6 @@
       "target": "Steel - Large"
     },
     {
-      "source": "company",
-      "target": "Finance & Investments"
-    },
-    {
       "source": "JSWENERGY",
       "target": "Power Generation And Supply"
     },
@@ -1232,20 +1196,12 @@
       "target": "Pharmaceuticals - Indian - Bulk Drugs & Formln"
     },
     {
-      "source": "company",
-      "target": "Auto Ancillaries"
-    },
-    {
       "source": "SWIGGY",
       "target": "Miscellaneous"
     },
     {
       "source": "HEROMOTOCO",
       "target": "Automobiles - Motorcycles / Mopeds"
-    },
-    {
-      "source": "company",
-      "target": "Banks - Private Sector"
     }
   ]
 }
